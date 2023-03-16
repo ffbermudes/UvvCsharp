@@ -1,0 +1,17 @@
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.csproj.AssemblyReference.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\bin\Debug\net7.0\codigo1meu.exe
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\bin\Debug\net7.0\codigo1meu.deps.json
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\bin\Debug\net7.0\codigo1meu.runtimeconfig.json
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\bin\Debug\net7.0\codigo1meu.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\bin\Debug\net7.0\codigo1meu.pdb
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.csproj.CopyComplete
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\refint\codigo1meu.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.pdb
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\codigo1meu.genruntimeconfig.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\obj\Debug\net7.0\ref\codigo1meu.dll

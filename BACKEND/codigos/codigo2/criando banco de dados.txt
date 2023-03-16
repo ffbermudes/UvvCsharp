@@ -1,0 +1,39 @@
+Para criar um banco de dados no MySQL com C# no Visual Studio Code, você precisa seguir os seguintes passos:
+
+Certifique-se de que o pacote MySql.Data esteja instalado no seu projeto. Se não estiver, siga as instruções no tópico anterior para instalá-lo.
+
+Crie uma conexão com o banco de dados MySQL. Para isso, você precisará fornecer o endereço do servidor MySQL, nome de usuário e senha.
+
+Crie um objeto MySqlCommand e atribua a ele a consulta SQL para criar o banco de dados.
+
+Abra a conexão com o banco de dados.
+
+Execute o comando MySqlCommand para criar o banco de dados.
+
+Feche a conexão com o banco de dados.
+
+Aqui está um exemplo de código C# que cria um banco de dados no MySQL:
+
+csharp
+Copy code
+using System;
+using MySql.Data.MySqlClient;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string connectionString = "server=localhost;uid=nome_do_usuario;password=senha_do_usuario;";
+        
+        MySqlConnection connection = new MySqlConnection(connectionString);
+        
+        MySqlCommand command = new MySqlCommand("CREATE DATABASE nome_do_banco_de_dados", connection);
+        
+        connection.Open();
+        command.ExecuteNonQuery();
+        connection.Close();
+        
+        Console.WriteLine("Banco de dados criado com sucesso!");
+    }
+}
+Certifique-se de substituir "nome_do_usuario", "senha_do_usuario" e "nome_do_banco_de_dados" pelos valores corretos para a sua configuração do MySQL.

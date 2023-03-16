@@ -1,0 +1,29 @@
+Para instalar o Angular no VS Code, você precisa seguir os seguintes passos:
+
+Instale o Node.js em seu computador, se ainda não o tiver feito. Você pode fazer o download do Node.js em https://nodejs.org/en/.
+
+Abra o terminal do VS Code e digite o comando "npm install -g @angular/cli". Isso instalará o Angular CLI globalmente em seu sistema.
+
+Crie um novo projeto Angular usando o comando "ng new nome_do_projeto" no terminal do VS Code. O Angular CLI irá criar um novo projeto com o nome especificado e instalar todas as dependências necessárias.
+
+Para testar o projeto Angular recém-criado, execute o comando "ng serve" no terminal do VS Code. Isso irá iniciar o servidor de desenvolvimento do Angular e abrir o aplicativo no navegador padrão do sistema.
+
+Aqui está um exemplo de como instalar o Angular no VS Code:
+
+Abra o terminal do VS Code.
+
+Digite o comando "npm install -g @angular/cli" e pressione Enter.
+
+Aguarde o término da instalação.
+
+Digite o comando "ng new meu_projeto" e pressione Enter.
+
+Aguarde a criação do novo projeto Angular e a instalação das dependências.
+
+Navegue até a pasta do projeto usando o comando "cd meu_projeto" e pressione Enter.
+
+Digite o comando "ng serve" e pressione Enter.
+
+Aguarde o servidor de desenvolvimento do Angular iniciar e abrir o aplicativo no navegador padrão do sistema.
+
+Pronto! Agora você tem o Angular instalado e um novo projeto Angular criado e pronto para ser desenvolvido.

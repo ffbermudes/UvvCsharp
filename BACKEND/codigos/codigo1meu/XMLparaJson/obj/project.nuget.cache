@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VMMcJqxXqkaOc+iVfzIyuhFE9G0Zjyrpr1Ea+y9SZO+BGmDqIx0O+lFnZWJ1DxJBPuyhMJzxUsumAJi7Pq7v6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Filipe\\Desktop\\CsharpUVV\\BACKEND\\codigos\\codigo1meu\\XMLparaJson\\xmlParaJson.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Filipe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

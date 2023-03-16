@@ -1,0 +1,15 @@
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\bin\Debug\net7.0\ArquivoLivroSerializacao.exe
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\bin\Debug\net7.0\ArquivoLivroSerializacao.deps.json
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\bin\Debug\net7.0\ArquivoLivroSerializacao.runtimeconfig.json
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\bin\Debug\net7.0\ArquivoLivroSerializacao.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\bin\Debug\net7.0\ArquivoLivroSerializacao.pdb
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.csproj.AssemblyReference.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\refint\ArquivoLivroSerializacao.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.pdb
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ArquivoLivroSerializacao.genruntimeconfig.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\ArquivoLivroSerializacao\obj\Debug\net7.0\ref\ArquivoLivroSerializacao.dll

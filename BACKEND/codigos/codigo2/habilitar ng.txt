@@ -1,0 +1,13 @@
+Para corrigir esse problema, você pode tentar executar o PowerShell como administrador. Para fazer isso, siga estes passos:
+
+Clique com o botão direito do mouse no ícone do PowerShell na barra de tarefas do Windows e selecione "Executar como administrador". Se o ícone do PowerShell não estiver na barra de tarefas, abra o menu Iniciar, pesquise por "PowerShell", clique com o botão direito do mouse no ícone do PowerShell e selecione "Executar como administrador".
+
+Quando solicitado a confirmar se deseja permitir que o aplicativo faça alterações no dispositivo, clique em "Sim".
+
+Digite o comando "Set-ExecutionPolicy RemoteSigned" e pressione Enter. Isso permitirá a execução de scripts locais.
+
+Quando solicitado a confirmar a alteração da política de execução, digite "Y" e pressione Enter.
+
+Tente executar o comando "ng new meu_projeto" novamente. O comando deve funcionar corretamente agora.
+
+Certifique-se de restaurar a política de execução anterior após concluir o desenvolvimento, para manter a segurança do sistema. Para fazer isso, execute novamente o comando "Set-ExecutionPolicy" e especifique a política de execução anterior.

@@ -1,0 +1,57 @@
+Para criar um projeto C# no VS Code, siga os seguintes passos:
+
+Certifique-se de que o .NET Core SDK esteja instalado no seu computador. Caso contrário, baixe e instale-o antes de prosseguir.
+
+Abra o VS Code e pressione "Ctrl+Shift+P" para abrir a paleta de comandos.
+
+Digite "dotnet" na paleta de comandos e selecione "Criar Novo Projeto".
+
+Selecione o tipo de projeto que deseja criar (por exemplo, "Console App", "Web App", etc.) e siga as instruções para configurar o projeto.
+
+Após a criação do projeto, abra o diretório do projeto no VS Code e comece a escrever o código C#.
+
+Aqui está um exemplo de como criar um projeto de console básico em C# no VS Code:
+
+Abra o terminal no VS Code pressionando "Ctrl+Shift+`" ou vá em "Terminal" > "New Terminal".
+
+Crie um novo diretório para o projeto usando o comando "mkdir":
+
+bash
+Copy code
+mkdir MeuProjeto
+cd MeuProjeto
+Crie um novo projeto usando o comando "dotnet new console":
+bash
+Copy code
+dotnet new console
+Abra o diretório do projeto no VS Code usando o comando "code":
+bash
+Copy code
+code .
+No VS Code, abra o arquivo "Program.cs" dentro da pasta "src".
+
+Adicione o seguinte código ao arquivo "Program.cs":
+
+csharp
+Copy code
+using System;
+
+namespace MeuProjeto
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Olá, mundo!");
+        }
+    }
+}
+Salve o arquivo "Program.cs".
+
+Execute o projeto usando o comando "dotnet run" no terminal:
+
+bash
+Copy code
+dotnet run
+Verifique se a saída do terminal exibe "Olá, mundo!".
+A partir daqui, você pode continuar a desenvolver o seu projeto em C# no VS Code.

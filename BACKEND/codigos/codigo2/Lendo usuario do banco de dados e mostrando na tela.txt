@@ -1,0 +1,128 @@
+Para criar um programa em C# que leia um usuário do MySQL e mostrá-lo usando o Angular, você pode seguir os seguintes passos:
+
+Crie um novo projeto em C# no VS Code, usando o comando "dotnet new webapi".
+
+Adicione a biblioteca MySQL Connector/NET ao projeto C#, adicionando a seguinte linha ao arquivo .csproj:
+
+php
+Copy code
+<ItemGroup>
+  <PackageReference Include="MySql.Data" Version="8.0.27" />
+</ItemGroup>
+No arquivo Startup.cs, adicione a seguinte linha ao método ConfigureServices:
+scss
+Copy code
+services.AddCors();
+No arquivo Startup.cs, adicione a seguinte linha ao método Configure:
+less
+Copy code
+app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+Crie um novo controlador em C#, usando o comando "dotnet add controller NomeDoController".
+
+No método Get do controlador, implemente a lógica para buscar o usuário do MySQL usando o MySQL Connector/NET.
+
+Crie um novo projeto Angular no VS Code, usando o comando "ng new nome-do-projeto".
+
+No arquivo environment.ts do projeto Angular, configure a URL da API do C#.
+
+Crie um novo componente em Angular, usando o comando "ng generate component nome-do-componente".
+
+No componente Angular, implemente a lógica para chamar a API do C# e mostrar o usuário retornado.
+
+Aqui está um exemplo de como implementar esse programa:
+
+No projeto C#, crie um novo controlador chamado UsuarioController:
+csharp
+Copy code
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
+
+namespace MeuProjeto.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class UsuarioController : ControllerBase
+    {
+        private string _connectionString = "server=localhost;database=nome-do-banco-de-dados;uid=nome-do-usuario;password=senha-do-usuario;";
+
+        [HttpGet("{id}")]
+        public Usuario Get(int id)
+        {
+            MySqlConnection connection = new MySqlConnection(_connectionString);
+            MySqlCommand command = new MySqlCommand("SELECT * FROM usuarios WHERE id = @id", connection);
+            command.Parameters.AddWithValue("@id", id);
+            connection.Open();
+            MySqlDataReader reader = command.ExecuteReader();
+            Usuario usuario = null;
+            if (reader.Read())
+            {
+                usuario = new Usuario();
+                usuario.Id = reader.GetInt32("id");
+                usuario.Nome = reader.GetString("nome");
+                usuario.Email = reader.GetString("email");
+            }
+            reader.Close();
+            connection.Close();
+            return usuario;
+        }
+    }
+
+    public class Usuario
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+    }
+}
+No projeto Angular, crie um novo componente chamado UsuarioComponent:
+typescript
+Copy code
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+@Component({
+  selector: 'app-usuario',
+  templateUrl: './usuario.component.html',
+  styleUrls: ['./usuario.component.css']
+})
+export class UsuarioComponent implements OnInit {
+
+  usuario: any;
+
+  constructor(private http: HttpClient) { }
+
+  ngOnInit() {
+    this.http.get('http://localhost:5000/usuario/1').subscribe((data) => {
+      this.usuario = data;
+    });
+  }
+
+}
+No template HTML do componente UsuarioComponent, adicione o seguinte código:
+html
+Copy code
+<div *ngIf="usuario">
+  <p
+
+
+
+Vinicius da Rocha Motta
+continue
+Seu usuário:
+
+  </p>
+  <ul>
+    <li>ID: {{usuario.id}}</li>
+    <li>Nome: {{usuario.nome}}</li>
+    <li>Email: {{usuario.email}}</li>
+  </ul>
+</div>
+```
+Inicie o servidor de desenvolvimento do Angular, usando o comando "ng serve".
+
+Inicie o servidor da API C#, usando o comando "dotnet run".
+
+Acesse o aplicativo em seu navegador, em "http://localhost:4200/usuario".
+
+Isso irá chamar a API C# para buscar o usuário com ID 1 no MySQL, e mostrar o resultado na página do Angular. Você pode adaptar esse exemplo para buscar usuários com IDs diferentes, ou implementar outros recursos e funcionalidades em ambos os projetos.

@@ -1,0 +1,17 @@
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\bin\Debug\net7.0\xmlParaJson.exe
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\bin\Debug\net7.0\xmlParaJson.deps.json
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\bin\Debug\net7.0\xmlParaJson.runtimeconfig.json
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\bin\Debug\net7.0\xmlParaJson.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\bin\Debug\net7.0\xmlParaJson.pdb
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.csproj.AssemblyReference.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.csproj.CopyComplete
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\refint\xmlParaJson.dll
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.pdb
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\xmlParaJson.genruntimeconfig.cache
+C:\Users\Filipe\Desktop\CsharpUVV\BACKEND\codigos\codigo1meu\XMLparaJson\obj\Debug\net7.0\ref\xmlParaJson.dll
